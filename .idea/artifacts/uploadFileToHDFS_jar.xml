@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="uploadFileToHDFS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/uploadFileToHDFS_jar</output-path>
+    <root id="archive" name="uploadFileToHDFS.jar">
+      <element id="module-output" name="uploadFileToHDFS" />
+    </root>
+  </artifact>
+</component>
