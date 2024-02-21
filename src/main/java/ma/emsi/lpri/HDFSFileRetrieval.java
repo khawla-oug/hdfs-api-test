@@ -11,8 +11,8 @@ public class HDFSFileRetrieval {
 
     public static void main(String[] args) throws IOException {
         String hdfsUri = "http://172.20.43.105:9870/webhdfs/v1";
-        String hdfsFilePath = "/cv.pdf";
-        String localFilePath = "src/main/resources/cv.pdf";
+        String hdfsFilePath = "/dir";
+        String localFilePath = "src/main/resources/dir";
 
         retrieveFileFromHDFS(hdfsUri, hdfsFilePath, localFilePath);
     }
