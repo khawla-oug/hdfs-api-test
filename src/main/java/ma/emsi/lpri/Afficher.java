@@ -9,7 +9,7 @@ public class Afficher {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Welcome to our example program to get metadata of a file");
-
+        int a = 5 ;
         Scanner keyboard = new Scanner(System.in);
         System.out.println(" **** Please insert the absolute path to the file in HDFS: ");
         String hdfsFilePath = keyboard.nextLine();
